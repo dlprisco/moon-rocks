@@ -50,18 +50,18 @@ class Classifier(object):
 
     # A function to randomly select a set of images.
     def randomSamples(self, testTransforms, numSamples=5):
-      """showRandomSamples function for Tensor."""
-      data = datasets.ImageFolder(self.dataDir, testTransforms)
-      classes = data.classes
-      self.indices = list(range(len(data)))
-      np.random.shuffle(self.indices)
-      idx = self.indices[:numSamples]
-      sampler = SubsetRandomSampler(idx)
-      loader = torch.utils.data.DataLoader(data, sampler=sampler, batch_size=numSamples)
-      dataiter = iter(loader)
-      images, labels = dataiter.next()
-      
-      return images, labels
+        """showRandomSamples function for Tensor."""
+        data = datasets.ImageFolder(self.dataDir, testTransforms)
+        classes = data.classes
+        self.indices = list(range(len(data)))
+        np.random.shuffle(self.indices)
+        idx = self.indices[:numSamples]
+        sampler = SubsetRandomSampler(idx)
+        loader = torch.utils.data.DataLoader(data, sampler=sampler, batch_size=numSamples)
+        dataiter = iter(loader)
+        images, labels = dataiter.next()
+        
+        return images, labels
 
     # Define a function to train model
     def trainModel(self, model, criterion, optimizer, scheduler, numEpochs=25):
