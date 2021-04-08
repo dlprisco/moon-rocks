@@ -1,7 +1,7 @@
 # Analysis of space rocks using PyTorch. 
 
-&nbsp; This is a simple program with the objective of recreating image classification using this prestigious library.
-<br><br><br><br>
+&nbsp; This is a simple program with the objective of recreate image classification using this prestigious library.
+<br><br><br>
 
 ## Requirements
 
@@ -34,6 +34,8 @@
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = models.resnet50(pretrained=True)
+    
+ <br>
 
 &nbsp; Once the program completes its first phase will be ready to show some random examples randomly (numSamples). Now we can see some images of our dataset, we can also access them in the '/Data' folder. 
 
