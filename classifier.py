@@ -36,12 +36,6 @@ class Classifier(object):
         self.trainIdx, self.testIdx = self.indices[self.split:], self.indices[:self.split]
         self.trainSampler, self.testSampler = SubsetRandomSampler(self.trainIdx), SubsetRandomSampler(self.testIdx)
 
-        # Note:
-        #
-        # dataset have many similarities, 
-        # but they differ when using transforms.Compose([]).
-        # Please check transformers section.  
-
         self.dataLoaders = {x: torch.utils.data.DataLoader(self.imageDatasets[x], batch_size=16, shuffle=True, num_workers=2) for x in ['train', 'test']}
         self.datasetSizes = {x: len(self.imageDatasets[x]) for x in ['train', 'test']}
 
