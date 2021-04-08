@@ -51,13 +51,9 @@ This is a simple project with the objective of recreating image classification u
     plt.show()
 
 ###### matplotlib plots
-<br>
-![rock_image_1]('/resources/1.png')
-<br>
-![rock_image_2]('resources/2.png')
-<br>
-![rock_image_3]('resources/3.png')
-<br>
-![rock_image_4]('resources/5.png')
+![image 1](resources/1.png) <br>
+![image 2](resources/2.png) <br>
+![image 3](resources/3.png) <br>
+![image 4](resources/5.png) <br>
 
 
