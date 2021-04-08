@@ -2,7 +2,6 @@
 
 This is a simple project with the objective of recreating image classification using this prestigious library.
 
-<br>
 
 ## Requirements
 
@@ -28,9 +27,6 @@ This is a simple project with the objective of recreating image classification u
 
     Best val Acc: 0.967742
 
-    <Figure size 640x480 with 1 Axes>
-
-
 
 # Overview
 &nbsp; Use of a neural network to learn the associations between features (curves, edges, and texture) and each rock type.
@@ -55,6 +51,6 @@ This is a simple project with the objective of recreating image classification u
     plt.show()
 
 ###### matplotlib plots
-<br>![rock_image_1]('resource/1.png')
+<br>![rock_image_1]('resources/1.png')
 
 
