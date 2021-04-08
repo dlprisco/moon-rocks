@@ -1,7 +1,7 @@
 # Analysis of space rocks using PyTorch. 
 
 This is a simple project with the objective of recreating image classification using this prestigious library.
-
+<br>
 
 ## Requirements
 
@@ -51,9 +51,18 @@ This is a simple project with the objective of recreating image classification u
     plt.show()
 
 ###### matplotlib plots
-![image 1](resources/1.png) <br>
+![image 1](resources/1.png) &nbsp;
 ![image 2](resources/2.png) <br>
-![image 3](resources/3.png) <br>
+![image 3](resources/3.png) &nbsp;
 ![image 4](resources/5.png) <br>
 
+## Save our model
+    # Save pre-trained model
+    torch.save(model, 'model.pth')
+![image 5](resources/4.png) 
+    
 
+If you are intereseted on this kind of topic, you could check the following links: <br>
+* [PyTorch - Transfer learning tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) <br>
+* [Microsoft learn](https://docs.microsoft.com/en-us/learn/paths/classify-space-rocks-artificial-intelligence-nasa/)
+* [Analyze rocks image - Youtube](https://www.youtube.com/watch?v=XoHR4p8AO9o&feature=youtu.be) 
