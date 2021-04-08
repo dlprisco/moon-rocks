@@ -7,7 +7,7 @@
 
     pip install -r requirements.txt
 
-
+<br>
 ## Train
 &nbsp;  To load, train and check how the program works, you need to run the main script file *train.py*.
 
@@ -27,7 +27,7 @@
 
     Best val Acc: 0.967742
 
-
+<br>
 # Overview
 &nbsp; Use of a neural network to learn the associations between features (curves, edges, and texture) and each rock type.
 
@@ -50,7 +50,8 @@
     plt.title = classes
     plt.show()
 
-###### matplotlib plots
+<br>
+##### matplotlib plots
 ![image 1](resources/1.png) <br>
 ![image 2](resources/2.png) <br>
 ![image 3](resources/3.png) <br>
@@ -60,10 +61,8 @@
     # Save pre-trained model
     torch.save(model, 'model.pth')
 ![image 5](resources/4.png) 
-    
 
 <br>
-
 If you are intereseted on this kind of topic, you could check the following links: <br>
 * [PyTorch - Transfer learning tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) <br>
 * [Microsoft learn](https://docs.microsoft.com/en-us/learn/paths/classify-space-rocks-artificial-intelligence-nasa/)
