@@ -48,19 +48,26 @@ model = model.to(device)
 # Model analysis
 ml_classifier = Classifier(dataTransforms, model, device, dataDir)
 
-# Here the size of each output sample is set to lenght of classNames list.
-# Alternatively, it can be generalized to nn.Linear(numFtrs, len(ml_classifier.classNames))
-model.fc = nn.Linear(numFtrs, len(ml_classifier.classNames))
+# Sequential container
+# Build model parameters of deep learning model
+model.fc = nn.Sequential(
+    nn.Linear(2048, 512),
+    nn.ReLU(),
+    nn.Dropout(0.2),
+    nn.Linear(512, 2),
+    nn.LogSoftmax(dim=1)
+)
+
 criterion = nn.CrossEntropyLoss()
 
 # Observe that all parameters are being optimized.
-optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
+optimizer = optim.SGD(model.parameters(), lr=0.05, momentum=0.9)
 
-# Decay LR by a factor of 0.1 every 7 epochs.
-expLrScheduler = lr_scheduler.StepLR(optimizer, step_size=7, gamma=0.1)
+# Decay LR by a factor of 0.05 every 14 epochs.
+expLrScheduler = lr_scheduler.StepLR(optimizer, step_size=14, gamma=0.1)
 
 # Train and evaluate
-model = ml_classifier.trainModel(model, criterion, optimizer, expLrScheduler, numEpochs=6)
+model = ml_classifier.trainModel(model, criterion, optimizer, expLrScheduler, numEpochs=26)
 
 # Display testing
 ml_classifier.visualizeModelPreview(model)
