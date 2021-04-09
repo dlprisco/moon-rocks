@@ -10,22 +10,25 @@
 
 ## Train
 &nbsp;  To load, train and check how the program works, you need to run the main script file *train.py*.
-
-    python train.py
     
     Epoch 0/25
     ====================================================================================================
-    train Loss: 0.6629 Acc: 0.6194
-    test Loss: 0.6376 Acc: 0.6065
+    train Loss: 1.2328 Acc: 0.6000
+    test Loss: 0.7766 Acc: 0.5871
     .
     .
+    .
+    Epoch 19/25
+    ====================================================================================================
+    train Loss: 0.3478 Acc: 0.8452
+    test Loss: 0.1647 Acc: 0.9935
     .
     Epoch 25/25
     ====================================================================================================
-    train Loss: 0.2160 Acc: 0.9548
-    test Loss: 0.2092 Acc: 0.9677
+    train Loss: 0.3057 Acc: 0.8387
+    test Loss: 0.1617 Acc: 0.9742
 
-    Best val Acc: 0.967742
+    Best val Acc: 0.993548
 
 <br>
 
