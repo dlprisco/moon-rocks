@@ -73,5 +73,3 @@
 
 If you are intereseted on this kind of topic, you could check the following links: <br>
 * [PyTorch - Transfer learning tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) <br>
-* [Microsoft learn](https://docs.microsoft.com/en-us/learn/paths/classify-space-rocks-artificial-intelligence-nasa/)
-* [Analyze rocks image - Youtube](https://www.youtube.com/watch?v=XoHR4p8AO9o&feature=youtu.be) 
