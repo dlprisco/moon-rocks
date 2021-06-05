@@ -1,6 +1,6 @@
 # Analysis of space rocks using PyTorch
 
-&nbsp; This is a simple program with the objective of recreate image classification using this prestigious library.
+&nbsp; This is a simple program with the objective of recreate image classification using PyTorch.
 <br><br><br>
 
 ## Requirements
