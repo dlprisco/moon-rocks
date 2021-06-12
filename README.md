@@ -65,12 +65,12 @@
 ![image 3](resources/3.png) <br>
 ![image 4](resources/5.png) <br>
 
-## Save our model
+
     # Save pre-trained model
     torch.save(model, 'model.pth')
 ![image 5](resources/4.png) 
 
 <br>
 
-If you are intereseted on this kind of topic, you could check the following links: <br>
+If you are intereseted to learn more abou it, check the following link: <br>
 * [PyTorch - Transfer learning tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) <br>
