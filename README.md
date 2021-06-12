@@ -1,8 +1,9 @@
-# Analysis of space rocks using PyTorch
+# Space rocks image classification using PyTorch
 
 &nbsp; This is a simple program with the objective of recreate image classification using PyTorch.
-<br><br><br>
-
+<br>
+<br>
+<br>
 ## Requirements
 
     pip install -r requirements.txt
