@@ -1,11 +1,5 @@
-# Space rocks image classification using PyTorch
-
-&nbsp; This is a simple program with the objective of recreate image classification using PyTorch.
+## Installing libraries 
 <br>
-<br>
-<br>
-## Requirements
-
     pip install -r requirements.txt
 <br>
 
@@ -34,14 +28,7 @@
 <br>
 
 # Overview
-&nbsp; Use of a neural network to learn the associations between features (curves, edges, and texture) and each rock type.
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = models.resnet50(pretrained=True)
-    
- <br>
-
-&nbsp; Once the program completes its first phase will be ready to show some random examples randomly (numSamples). Now we can see some images of our dataset, we can also access them in the '/Data' folder. 
+&nbsp; Once the program completes its first phase will be ready to show some random examples. Now we can see some images of our dataset, we can also access them in the '/Data' folder. 
 
     images, labels = ml_classifier.randomSamples(testTransforms, numSamples=5)
     toPil = transforms.ToPILImage()
@@ -72,5 +59,5 @@
 
 <br>
 
-If you are intereseted to learn more abou it, check the following link: <br>
-* [PyTorch - Transfer learning tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html) <br>
+Information about dataset: <br>
+* [Lunar Rocks and Soils from Apollo Missions](https://curator.jsc.nasa.gov/lunar/index.cfm) <br>
