@@ -4,7 +4,7 @@
 <br>
 
 ## Train
-&nbsp;  To load, train and check how the program works, you need to run the main script file *train.py*.
+&nbsp;  file *train.py*.
     
     Epoch 0/25
     ====================================================================================================
