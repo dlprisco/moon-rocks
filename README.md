@@ -60,4 +60,4 @@
 <br>
 
 Information about dataset: <br>
-* [Moon Rocks and Soils from Apollo Missions](https://curator.jsc.nasa.gov/lunar/index.cfm) <br>
+* [Lunar Rocks and Soils from Apollo Missions](https://curator.jsc.nasa.gov/lunar/index.cfm) <br>
