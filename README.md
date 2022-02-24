@@ -59,5 +59,8 @@
 
 <br>
 
+Notebook: <br>
+* [Notebook](https://github.com/ellhe-blaster/moon-rocks/blob/main/Notebook.ipynb)
+
 Information about dataset: <br>
 * [Lunar Rocks and Soils from Apollo Missions](https://curator.jsc.nasa.gov/lunar/index.cfm) <br>
