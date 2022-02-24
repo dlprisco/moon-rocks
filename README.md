@@ -52,7 +52,6 @@
 
     # Save pre-trained model
     torch.save(model, 'model.pth')
-![image 5](resources/4.png) 
 
 <br>
 
