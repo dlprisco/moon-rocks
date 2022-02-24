@@ -49,9 +49,6 @@
 ##### images
 ![image 1](resources/1.png) <br>
 ![image 2](resources/2.png) <br>
-![image 3](resources/3.png) <br>
-![image 4](resources/5.png) <br>
-
 
     # Save pre-trained model
     torch.save(model, 'model.pth')
