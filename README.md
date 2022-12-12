@@ -55,8 +55,9 @@
 
 <br>
 
-Notebook: <br>
+info: <br>
 * [Notebook](https://github.com/ellhe-blaster/moon-rocks/blob/main/Notebook.ipynb)
+* [Microsoft path learning](https://learn.microsoft.com/es-es/training/modules/introduction-python-nasa/)
 
 Information about dataset: <br>
 * [Lunar Rocks and Soils from Apollo Missions](https://curator.jsc.nasa.gov/lunar/index.cfm) <br>
